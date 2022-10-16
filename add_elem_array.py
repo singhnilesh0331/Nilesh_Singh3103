@@ -2,10 +2,10 @@
 # Adding Elements to a Array
 
 # importing "array" for array creations
-import array as arr
+import array as ar
 
 # array with int type
-a = arr.array('i', [1, 2, 3])
+a = ar.array('i', [1, 2, 3])
 
 
 print ("Array before insertion : ", end =" ")
@@ -23,7 +23,7 @@ for i in (a):
 print()
 
 # array with float type
-b = arr.array('d', [2.5, 3.2, 3.3])
+b = ar.array('d', [2.5, 3.2, 3.3])
 
 print ("Array before insertion : ", end =" ")
 for i in range (0, 3):
